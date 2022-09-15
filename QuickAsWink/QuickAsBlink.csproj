@@ -111,8 +111,6 @@
     <Content Include="Admin\AddAdmin\showRoles.aspx" />
     <Content Include="Admin\ShowUsersFiles.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
-    <Content Include="bootstrap\js\bootstrap.min.js" />
-    <Content Include="bootstrap\js\jquery-3.3.1.slim.min.js" />
     <Content Include="bootstrap\js\popper.min.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
