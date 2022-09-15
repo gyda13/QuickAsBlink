@@ -62,7 +62,7 @@ namespace QuickAsBlink
                     }
                     catch (Exception ex)
                     {
-                        lblMessage.Text = "Please enter a vaild email";
+                        lblMessage.Text = "Please enter a valid email";
                         lblMessage.ForeColor = System.Drawing.Color.Red;
                     }
                 }
