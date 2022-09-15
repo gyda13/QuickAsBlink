@@ -14,8 +14,8 @@
     
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-
-   <style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
 footer {
   text-align: center;
    width: 100%;
@@ -145,7 +145,7 @@ footer {
                     </LoggedInTemplate>
                 </asp:LoginView>
             </div>  
-                  <i class="fa-regular fa-envelope"></i>
+                 <i class="fa fa-envelope" style="font-size:18px"></i>
                 <a href="mailto:QuickasBlink@gmail.com" >QuickasBlink@gmail.com</a>
   <div class="copyright">
                 <p>&copy; <%: DateTime.Now.Year %> All rights reserved.</p>

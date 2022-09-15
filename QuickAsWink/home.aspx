@@ -10,8 +10,7 @@
 <head>
     <title></title>
            <link href="/Style/Site.css" rel="stylesheet" type="text/css" />
-   
-
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -83,7 +82,7 @@ rgba(0,80,255,0.4) 24.4%, rgba(19,30,37,1) 24.5%, rgba(19,30,37,1) 66% ); " >
             <a href="subjects.aspx" class="card special-card" style="width: 25.5rem;">
   <div class="card-body">
       <h2>Select  Subject</h2>
-      <i class="fa-solid fa-arrow-right"></i>
+      <i class='fas fa-arrow-right' style='font-size:20px'></i>
   </div>
 </a>
       </div>
@@ -93,7 +92,7 @@ rgba(0,80,255,0.4) 24.4%, rgba(19,30,37,1) 24.5%, rgba(19,30,37,1) 66% ); " >
                    <a href="JoinUs.aspx" class="card special-card" style="width: 25.5rem;  ">
   <div class="card-body">
       <h2>Upload Your Summarization</h2>
-      <i class="fa-solid fa-arrow-right"></i>
+      <i class='fas fa-arrow-right' style='font-size:20px'></i>
   </div>
 </a>
       </div>
