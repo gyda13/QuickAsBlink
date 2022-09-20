@@ -119,7 +119,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="home.aspx" />
+    <Content Include="home\home.aspx" />
     <Content Include="imgs\5213655.jpg" />
     <Content Include="imgs\c.jpg" />
     <Content Include="imgs\emailnews.jpg" />
@@ -152,9 +152,9 @@
     <Content Include="imgs\sqlcommand.jpg" />
     <Content Include="imgs\switchCheatsheet.jpeg" />
     <Content Include="imgs\switchQ.png" />
-    <Content Include="java.aspx" />
-    <Content Include="JoinUs.aspx" />
-    <Content Include="network.aspx" />
+    <Content Include="subjects\java.aspx" />
+    <Content Include="joinUs\JoinUs.aspx" />
+    <Content Include="subjects\network.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\bootstrap-theme.css.map" />
@@ -199,10 +199,10 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="subjects.aspx" />
+    <Content Include="subjects\subjects.aspx" />
     <Content Include="Style\Site.css" />
-    <Content Include="Programing.aspx" />
-    <Content Include="Sql.aspx" />
+    <Content Include="subjects\Programing.aspx" />
+    <Content Include="subjects\Sql.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -247,39 +247,39 @@
     <Compile Include="App_Code\CRUD.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="FileContentResult.cs" />
-    <Compile Include="home.aspx.cs">
+    <Compile Include="home\home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="home.aspx.designer.cs">
+    <Compile Include="home\home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="java.aspx.cs">
+    <Compile Include="subjects\java.aspx.cs">
       <DependentUpon>java.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="java.aspx.designer.cs">
+    <Compile Include="subjects\java.aspx.designer.cs">
       <DependentUpon>java.aspx</DependentUpon>
     </Compile>
-    <Compile Include="JoinUs.aspx.cs">
+    <Compile Include="joinUs\JoinUs.aspx.cs">
       <DependentUpon>JoinUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="JoinUs.aspx.designer.cs">
+    <Compile Include="joinUs\JoinUs.aspx.designer.cs">
       <DependentUpon>JoinUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="network.aspx.cs">
+    <Compile Include="subjects\network.aspx.cs">
       <DependentUpon>network.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="network.aspx.designer.cs">
+    <Compile Include="subjects\network.aspx.designer.cs">
       <DependentUpon>network.aspx</DependentUpon>
     </Compile>
-    <Compile Include="subjects.aspx.cs">
+    <Compile Include="subjects\subjects.aspx.cs">
       <DependentUpon>subjects.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="subjects.aspx.designer.cs">
+    <Compile Include="subjects\subjects.aspx.designer.cs">
       <DependentUpon>subjects.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -290,18 +290,18 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="Programing.aspx.cs">
+    <Compile Include="subjects\Programing.aspx.cs">
       <DependentUpon>Programing.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Programing.aspx.designer.cs">
+    <Compile Include="subjects\Programing.aspx.designer.cs">
       <DependentUpon>Programing.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sql.aspx.cs">
+    <Compile Include="subjects\Sql.aspx.cs">
       <DependentUpon>Sql.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sql.aspx.designer.cs">
+    <Compile Include="subjects\Sql.aspx.designer.cs">
       <DependentUpon>Sql.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
