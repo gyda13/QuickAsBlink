@@ -36,8 +36,8 @@ namespace QuickAsBlink.Account
             {
                 string strExistingAdmin = "";
                 string strAppName = "/QuikAsWink";
-                string strAdminUserName = "gyda";  //txtUserName.Text;
-                string strAdminPassword = "123"; //txtPassword.Text;
+                string strAdminUserName = "xxx";  //txtUserName.Text;
+                string strAdminPassword = "xxx"; //txtPassword.Text;
                 string strRoleName = "admin";
                 string strEmail = "gyda2100@gmail.com";
                 strAppName = Membership.ApplicationName.ToString();

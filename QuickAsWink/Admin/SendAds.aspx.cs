@@ -59,9 +59,16 @@ namespace QuickAsBlink.Admin
                 // Call Read before accessing data.
                 while (reader.Read())
                 {
+                    try
+                    {
 
-                    var to = new MailAddress(reader["email"].ToString());
-                    mail.Bcc.Add(to);
+                        var to = new MailAddress(reader["email"].ToString());
+                        mail.Bcc.Add(to);
+                    }
+                    catch
+                    {
+
+                    }
                    
 
                 }

@@ -35,7 +35,7 @@ OnClick="FileDownload_Clicked"/>
 
     <br />
 
-    <asp:Button class="btn" ID="Export" runat="server" Text="Export To Excel" OnClick="Export_Click"></asp:Button>
+    <asp:Button class="btn" ID="Export" runat="server" Text="Export To Excel" OnClick="Export_Click" style="width:15rem;"></asp:Button>
     </div>
     </center>
 

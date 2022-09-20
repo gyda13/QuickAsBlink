@@ -81,8 +81,8 @@ rgba(0,80,255,0.4) 24.4%, rgba(19,30,37,1) 24.5%, rgba(19,30,37,1) 66% ); " >
       <div class="row-2">
             <a href="subjects.aspx" class="card special-card" style="width: 25.5rem;">
   <div class="card-body">
-      <h2>Select  Subject</h2>
-      <i class='fas fa-arrow-right' style='font-size:20px'></i>
+      <h2>Select a Subject</h2>
+     <i class="fa fa-angle-right" style="font-size:30px"></i>
   </div>
 </a>
       </div>
@@ -92,7 +92,7 @@ rgba(0,80,255,0.4) 24.4%, rgba(19,30,37,1) 24.5%, rgba(19,30,37,1) 66% ); " >
                    <a href="JoinUs.aspx" class="card special-card" style="width: 25.5rem;  ">
   <div class="card-body">
       <h2>Upload Your Summarization</h2>
-      <i class='fas fa-arrow-right' style='font-size:20px'></i>
+    <i class="fa fa-angle-right" style="font-size:30px"></i>
   </div>
 </a>
       </div>

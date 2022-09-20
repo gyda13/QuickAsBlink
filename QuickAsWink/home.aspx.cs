@@ -64,7 +64,8 @@ namespace QuickAsBlink
                     {
                         lblMessage.Text = "Please enter a valid email";
                         lblMessage.ForeColor = System.Drawing.Color.Red;
-                    }
+                    email.Text = "";
+                }
                 }
 
             

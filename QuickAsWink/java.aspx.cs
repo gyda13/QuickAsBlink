@@ -60,7 +60,7 @@ namespace QuickAsWink
                     L3.Text = "incorrect";
                     L3.ForeColor = System.Drawing.Color.Red;
                 }
-                if (r4.SelectedItem.Value == "2")
+                if (r4.SelectedItem.Value == "4")
                 {
                     Count++;
                     L4.Text = "Correct";
@@ -70,6 +70,17 @@ namespace QuickAsWink
                 {
                     L4.Text = "incorrect";
                     L4.ForeColor = System.Drawing.Color.Red;
+                }
+                if (r5.SelectedItem.Value == "2")
+                {
+                    Count++;
+                    L5.Text = "Correct";
+                    L5.ForeColor = System.Drawing.Color.Green;
+                }
+                else
+                {
+                    L5.Text = "incorrect";
+                    L5.ForeColor = System.Drawing.Color.Red;
                 }
 
                 if (Count >= 3)
@@ -90,8 +101,8 @@ namespace QuickAsWink
         protected void ControlStatmentPdf_Click(object sender, EventArgs e)
         {
             Response.ContentType = "application/pdf";
-            Response.AppendHeader("Content-Disposition", "attachment; filename=LanvsWan.pdf");
-            Response.TransmitFile(Server.MapPath("~/Files/LanvsWan.pdf"));
+            Response.AppendHeader("Content-Disposition", "attachment; filename=control_statements_.pdf");
+            Response.TransmitFile(Server.MapPath("~/Files/control_statements_.pdf"));
             Response.End();
 
         }
@@ -110,7 +121,7 @@ namespace QuickAsWink
             else
             {
                 int Count = 0;
-                if (rbl1.SelectedItem.Value == "4")
+                if (rbl1.SelectedItem.Value == "2")
                 {
 
                     Count++;
@@ -122,7 +133,7 @@ namespace QuickAsWink
                     Lq1.Text = "incorrect";
                     Lq1.ForeColor = System.Drawing.Color.Red;
                 }
-                if (rbl2.SelectedItem.Value == "3")
+                if (rbl2.SelectedItem.Value == "4")
                 {
                     Count++;
                     Lq2.Text = "Correct";
@@ -133,7 +144,7 @@ namespace QuickAsWink
                     Lq2.Text = "incorrect";
                     Lq2.ForeColor = System.Drawing.Color.Red;
                 }
-                if (rbl3.SelectedItem.Value == "1")
+                if (rbl3.SelectedItem.Value == "3")
                 {
                     Count++;
                     Lq3.Text = "Correct";
@@ -155,15 +166,26 @@ namespace QuickAsWink
                     Lq4.Text = "incorrect";
                     Lq4.ForeColor = System.Drawing.Color.Red;
                 }
-
-                if (Count == 3)
+                if (rbl5.SelectedItem.Value == "3")
                 {
-                    result2.Text = Count + "/4 Well Done";
+                    Count++;
+                    Lq5.Text = "Correct";
+                    Lq5.ForeColor = System.Drawing.Color.Green;
+                }
+                else
+                {
+                    Lq5.Text = "incorrect";
+                    Lq5.ForeColor = System.Drawing.Color.Red;
+                }
+
+                if (Count >=3)
+                {
+                    result2.Text = Count + "/5 Well Done";
                     result2.ForeColor = System.Drawing.Color.Green;
                 }
                 if (Count < 3)
                 {
-                    result2.Text = Count + "/4 Try Again";
+                    result2.Text = Count + "/5 Try Again";
                     result2.ForeColor = System.Drawing.Color.Red;
                 }
             }
@@ -172,8 +194,8 @@ namespace QuickAsWink
         protected void LoopPdf_Click(object sender, EventArgs e)
         {
             Response.ContentType = "application/pdf";
-            Response.AppendHeader("Content-Disposition", "attachment; filename=LanvsWan.pdf");
-            Response.TransmitFile(Server.MapPath("~/Files/LanvsWan.pdf"));
+            Response.AppendHeader("Content-Disposition", "attachment; filename=loops.pdf");
+            Response.TransmitFile(Server.MapPath("~/Files/loops.pdf"));
             Response.End();
 
         }
