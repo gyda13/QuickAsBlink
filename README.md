@@ -1,6 +1,7 @@
 # QuickAsBlink
 
 #### QuickAsBlink is a website that helps students to Review a Particular Concept Easily.
+### using asp.net framework,Bootstrap and SQL server
 http://quickasblink-001-site1.gtempurl.com/home.aspx
 
 #### Home page
