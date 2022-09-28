@@ -16,7 +16,7 @@ http://quickasblink-001-site1.gtempurl.com/home.aspx
 
 # Admin
 
-#### Admins logIn
+#### Admins logIn using Authentication and Authorization
 ![logIn](https://user-images.githubusercontent.com/90142160/192798590-2dba37db-e7a3-4055-a04a-384bd442a206.png)
 #### SecurityConfig for the navbar
 ![admin](https://user-images.githubusercontent.com/90142160/192798608-13043e7d-1949-4cbd-b556-da7b6b1eba42.png)
