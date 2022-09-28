@@ -10,7 +10,7 @@ http://quickasblink-001-site1.gtempurl.com/home.aspx
 ![sample](https://user-images.githubusercontent.com/90142160/192801534-e6ba70b6-7a7a-4f85-bc56-537884b8a8bc.jpeg)
 ![cheatSheet](https://user-images.githubusercontent.com/90142160/192796885-521fbc97-2230-4e70-9deb-66fef35a5d59.jpeg)
 ![quiz](https://user-images.githubusercontent.com/90142160/192796912-d5ca8306-db9f-416d-ab38-92660e5516c6.jpeg)
-#### Users can Upload their Fiels
+#### Users can Upload their Files
 ![UploadFiel](https://user-images.githubusercontent.com/90142160/192798561-5f5e9c0b-0453-405f-94c2-5d34a6e96718.png)
 
 
@@ -22,7 +22,7 @@ http://quickasblink-001-site1.gtempurl.com/home.aspx
 ![admin](https://user-images.githubusercontent.com/90142160/192798608-13043e7d-1949-4cbd-b556-da7b6b1eba42.png)
 #### admins can send mail Ads to all emails address stored in the database
 ![sendmail](https://user-images.githubusercontent.com/90142160/192798724-fd0dd550-d94f-4571-950a-320288a220f0.png)
-#### admins can download users Fiels or Export them to excel
+#### admins can download users Files or Export them to excel
 ![ShowFile](https://user-images.githubusercontent.com/90142160/192798770-0247873b-8d15-4276-8199-3cb82cec4b57.png)
 #### admins can add another admin or another role and contact them to a new user (RoleMembership using database)
 ![addAdmin](https://user-images.githubusercontent.com/90142160/192798797-a70e420a-96b5-4aea-8473-d05004f025dc.png)
