@@ -1,4 +1,5 @@
 # QuickAsBlink
+
 #### Home page
 ![home](https://user-images.githubusercontent.com/90142160/192796816-fdc57ff8-8f75-40ce-bbd1-2c04651a9277.jpeg)
 #### card that contain CheatSheet, Quiz and pdf download for the CheatSheet
@@ -9,7 +10,8 @@
 ![UploadFiel](https://user-images.githubusercontent.com/90142160/192798561-5f5e9c0b-0453-405f-94c2-5d34a6e96718.png)
 
 
-#Admin
+# Admin
+
 #### Admins logIn
 ![logIn](https://user-images.githubusercontent.com/90142160/192798590-2dba37db-e7a3-4055-a04a-384bd442a206.png)
 #### SecurityConfig for the navbar
