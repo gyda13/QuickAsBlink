@@ -1,5 +1,8 @@
 # QuickAsBlink
 
+#### QuickAsBlink is a website that helps students to Review a Particular Concept Easily.
+http://quickasblink-001-site1.gtempurl.com/home.aspx
+
 #### Home page
 ![home](https://user-images.githubusercontent.com/90142160/192796816-fdc57ff8-8f75-40ce-bbd1-2c04651a9277.jpeg)
 #### card that contain CheatSheet, Quiz and pdf download for the CheatSheet
