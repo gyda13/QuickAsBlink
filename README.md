@@ -3,7 +3,7 @@
  QuickAsBlink is a website that helps students to Review a Particular Concept Easily.
 
 #### Technology
-  •Asp.net  
+  •Asp.net webforms
   •Bootstrap 
   •SQL server
 #### website link
