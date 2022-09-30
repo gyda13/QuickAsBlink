@@ -6,11 +6,11 @@ http://quickasblink-001-site1.gtempurl.com/home.aspx
 
 #### Home page
 ![home](https://user-images.githubusercontent.com/90142160/192796816-fdc57ff8-8f75-40ce-bbd1-2c04651a9277.jpeg)
- card that contain CheatSheet, Quiz and pdf download for the CheatSheet
+ -card that contain CheatSheet, Quiz and pdf download for the CheatSheet
 ![sample](https://user-images.githubusercontent.com/90142160/192801534-e6ba70b6-7a7a-4f85-bc56-537884b8a8bc.jpeg)
 ![cheatSheet](https://user-images.githubusercontent.com/90142160/192796885-521fbc97-2230-4e70-9deb-66fef35a5d59.jpeg)
-![quiz](https://user-images.githubusercontent.com/90142160/192796912-d5ca8306-db9f-416d-ab38-92660e5516c6.
- Users can Upload their Files
+![quiz](https://user-images.githubusercontent.com/90142160/192796912-d5ca8306-db9f-416d-ab38-92660e5516c6.jpeg)
+ -Users can Upload their Files
 ![UploadFiel](https://user-images.githubusercontent.com/90142160/192798561-5f5e9c0b-0453-405f-94c2-5d34a6e96718.png)
 
 
