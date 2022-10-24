@@ -260,19 +260,10 @@ namespace QuickAsBlink.Admin
                 return;
             }
         }
-        /// <summary>
-        ///     non-ANSI outer join operators ("*=" or "=*").
-        ///     ANSI outer join operators (LEFT OUTER JOIN, RIGHT OUTER JOIN).
-        ///     
-        ///     This is an important method that shows how to use left outer join and right outer join
-        /// </summary>
+       
         protected void populateGvAllUsers()
         {
-            ////get a collection of all users
-            //MembershipUserCollection users = Membership.GetAllUsers();
-            ////  string email = users["some_username"].Email;
-            //gvAllUsers.DataSource = users;
-            //gvAllUsers.DataBind();
+           
 
             string userCmd = "select username from dbo.aspnet_Users order by username";
             populateUserRole(userCmd, gvUsers);
@@ -315,13 +306,6 @@ namespace QuickAsBlink.Admin
                                + "  order by username";
             populateUserRole(rightOuterJoin, gvRightOuterJoin);
 
-
-            //string conString = //WebConfigurationManager.ConnectionStrings["FtreeConStrlocal"].ConnectionString;
-            //SqlDataAdapter dad = new SqlDataAdapter(selectCommandNonANSI, conString);
-            //DataTable dtUserRoles = new DataTable();
-            //dad.Fill(dtUserRoles);
-            //gvAllUsersRoles.DataSource = dtUserRoles;
-            //gvAllUsersRoles.DataBind();
         }
         private string getApplicationName()
         {
@@ -369,32 +353,9 @@ namespace QuickAsBlink.Admin
             Response.Redirect(Request.Path);
             populateGvAllUsers();
         }
-        /// <summary>
-        /// https://stackoverflow.com/questions/8986294/how-can-i-change-or-update-password-in-asp-net-membership-via-sql-server
-        /// </summary>
+     
         protected void btnUpdateUser_Click(object sender, EventArgs e)
-        {// to continue ali to do 
-         //        int intRtn = 0;
-         //        string strUser = txtUser.Text;
-         //        string strPassword = txtPassword.Text;
-         //        string strEmail = txtEmail.Text;
-         //        string strApplication =@"(SELECT 1 PasswordSalt FROM aspnet_Membership WHERE UserID IN  
-         //                  (SELECT UserID FROM aspnet_Users u, aspnet_Applications a
-         //                   WHERE u.UserName=@UserName and a.ApplicationName = @Application AND u.ApplicationId = a.ApplicationId))    ";
-         //        string strPasswordSalt = "";
-
-            //        string  myUpdateSql= @"update ";
-            //        Dictionary<string, object> myPara = new Dictionary<string, object>();
-            //        myPara.Add("@User", strUser);
-            //        myPara.Add("@Password", strPassword);
-            //        myPara.Add("@Email", strEmail);
-            //        intRtn = myKfmcCrud.InsertUpdateDeleteViaSqlDic(myUpdateSql, myPara); // return to work on identity
-            //        if (intRtn >= 1)
-            //        {
-            //            lblMsg.Text = "Success";
-            //        }
-            //        else
-            //            lblMsg.Text = "Failed";
+        {
         }
 
         protected void btnDeleteRoles_Click(object sender, EventArgs e)
