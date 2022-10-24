@@ -16,22 +16,11 @@ namespace QuickAsBlink.Account
             Session["Username"] = txtUserName.Text;
             createAdminAndUserByDefault();
         }
-        /*
-         *  // this is the stored procedure that should exist in  the database
-                    create procedure[dbo].[p_doesUserExist]
-                    @userName varchar(50), @appName varchar(50)
-                     as 
-                     declare @applicationId Nvarchar(100)
-                      select @applicationId = applicationId from[dbo].[aspnet_Applications]
-                            where applicationName = '/party'
-
-                    --declare @applicationId varchar(50) = (select applicationId from aspnet_Applications where applicationName =@appName)
-                    --select @applicationId as appId
-                    select userName from[dbo].[aspnet_Users] where applicationId = @applicationId and userName = @userName
-        */
+        
+     
         private void createAdminAndUserByDefault()
         {
-            //....  emailManger myEmailMgr = new emailManger();
+           
             try
             {
                 string strExistingAdmin = "";
@@ -73,7 +62,7 @@ namespace QuickAsBlink.Account
             catch (Exception ex)
             {
               lblOutput.Text = ex.Message.ToString();
-                //.. restore  myEmailMgr.sendEmailWdbcs("aalhussein@yahoo.com", "mySubject:Track User Login  " + Session["Username"].ToString(), ex.Message.ToString());
+               
             }
         }
 
@@ -84,7 +73,7 @@ namespace QuickAsBlink.Account
             if (blnAuthenticate)
             {
                 FormsAuthentication.RedirectFromLoginPage(txtUserName.Text, false);
-                // email admin when a user logged in the site
+               
                 DateTime myDate = DateTime.Now;
 
             }
