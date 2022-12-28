@@ -7,7 +7,7 @@
   - Bootstrap </br>
   - SQL server
 ### website link
-http://quickasblink-001-site1.gtempurl.com/home.aspx
+http://quickasblink-001-site1.gtempurl.com
 
 #### Home page
 ![home](https://user-images.githubusercontent.com/90142160/192796816-fdc57ff8-8f75-40ce-bbd1-2c04651a9277.jpeg)
