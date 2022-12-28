@@ -2,10 +2,10 @@
 
  QuickAsBlink is a website that helps students to Review a Particular Concept Easily.
 
-#### Technology
-  •Asp.net webforms
-  •Bootstrap 
-  •SQL server
+ ## Technologies
+  - Asp.net webforms </br>
+  - Bootstrap </br>
+  - SQL server
 #### website link
 http://quickasblink-001-site1.gtempurl.com/home.aspx
 
