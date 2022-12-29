@@ -29,7 +29,7 @@ http://quickasblink-001-site1.gtempurl.com
 ![sendmail](https://user-images.githubusercontent.com/90142160/192798724-fd0dd550-d94f-4571-950a-320288a220f0.png)
 • admins can download users Files or Export them to excel
 ![ShowFile](https://user-images.githubusercontent.com/90142160/192798770-0247873b-8d15-4276-8199-3cb82cec4b57.png)
-• admins can add another admin or another role and contact them to a new user (RoleMembership using database)
+• admins can add another admin or another role and conect them to a new user (RoleMembership using database)
 ![addAdmin](https://user-images.githubusercontent.com/90142160/192798797-a70e420a-96b5-4aea-8473-d05004f025dc.png)
 • admins can change their password
 ![ChangePassowrd](https://user-images.githubusercontent.com/90142160/192798830-8591cf62-48fe-49fb-a6bd-351a49e6b28e.png)
